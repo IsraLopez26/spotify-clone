@@ -80,6 +80,7 @@ const Sidebar = ()=>{
             })}
           </List>
         </Box>
+
         <Box marginY='20px'>
           <List spacing={2}>
             {musicMenu.map((item)=>{
@@ -98,6 +99,7 @@ const Sidebar = ()=>{
             })}
           </List>
         </Box>
+        
         <Divider color='gray.800'/>
         <Box height='69%' overflowY='auto' paddingY='20px'>
           <List spacing={2}>
