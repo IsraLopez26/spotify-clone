@@ -61,6 +61,7 @@ const Sidebar = ()=>{
       paddingX='5px' 
       color='gray'
     >
+
       <Box paddingY='20px' height='100%'>
         <Box marginBottom='20px'>
           <List spacing={2}>
@@ -118,6 +119,7 @@ const Sidebar = ()=>{
             })}
           </List>
         </Box>
+        
       </Box>
     </Box>
   )
